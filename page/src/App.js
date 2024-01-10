@@ -8,11 +8,11 @@ import "./App.css";
 function App() {
 	return (
 		<div id="page">
-			<img src={image13} id="image-13" />
-			<img src={image12} id="image-12" />
-			<img src={image15} id="image-15" />
-			<img src={group904} id="group-904" />
-			<img src={group804} id="group-804" />
+			<img src={image13} id="image-13" alt="image-13" />
+			<img src={image12} id="image-12" alt="image-12" />
+			<img src={image15} id="image-15" alt="image-15" />
+			<img src={group904} id="group-904" alt="group-904" />
+			<img src={group804} id="group-804" alt="group-804" />
 		</div>
 	);
 }
