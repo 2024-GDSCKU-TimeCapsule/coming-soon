@@ -32,7 +32,7 @@
 	top: 118px;
 	right: -161px;
 	position: absolute;
-	animation: image-13-spin 2s alternate-reverse infinite linear;
+	animation: image-13-spin 2s alternate-reverse infinite ease-in-out;
 }
 
 #image-12 {
@@ -45,7 +45,7 @@
 	bottom: -144px;
 	left: -190px;
 	position: absolute;
-	animation: image-12-spin 2s alternate infinite linear;
+	animation: image-12-spin 2s alternate infinite ease-in-out;
 }
 #image-15 {
 	width: 217.261px;
@@ -58,7 +58,7 @@
 	top: -1.8px;
 	left: -90px;
 	position: absolute;
-	animation: image-15-spin 2s alternate infinite linear;
+	animation: image-15-spin 2s alternate infinite ease-in-out;
 }
 
 #ellipse {
@@ -100,7 +100,6 @@
 }
 #date {
 	color: #fff;
-
 	text-align: center;
 	font-family: Product Sans;
 	font-size: 24px;
