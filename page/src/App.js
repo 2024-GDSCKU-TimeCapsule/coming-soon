@@ -2,7 +2,7 @@ import image13 from "./images/image-13.png";
 import image12 from "./images/image-12.png";
 import image15 from "./images/image-15.png";
 import instagram from "./images/instagram.svg";
-import ellipse from "./images/ellipse.svg";
+import ellipse from "./images/ellipse.png";
 import "./App.css";
 
 function App() {
