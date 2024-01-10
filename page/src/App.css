@@ -114,19 +114,41 @@
 	height: 449px;
 	flex-shrink: 0;
 }
-#group-804 {
-	width: 185px;
+#footer {
 	height: 42px;
 	bottom: 70px;
 	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-#line-75 {
-	width: 185px;
-	height: 42px;
-	stroke-width: 5px;
-	stroke: #d1d1d1;
-	bottom: 20px;
-	position: absolute;
+#link {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+#MadeBy {
+	color: #fff;
+	text-align: right;
+	font-family: Pretendard;
+
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 18px;
+}
+#insta-link {
+	color: #fff;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	font-family: Pretendard;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 210%;
 }
 
 @keyframes image-12-spin {
@@ -172,4 +194,63 @@
 	to {
 		transform: rotate(220deg);
 	}
+}
+
+@font-face {
+	font-family: "Gugi-Regular.ttf";
+	src: url("./static/fonts/Gugi-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Pretendard";
+	src: url("./static/fonts/Pretendard-Black.otf");
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: "Pretendard";
+	src: url("./static/fonts/Pretendard-Bold.otf");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Pretendard";
+	src: url("./static/fonts/Pretendard-ExtraBold.otf");
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: "Pretendard";
+	src: url("./static/fonts/Pretendard-ExtraLight.otf");
+	font-weight: 200;
+}
+
+@font-face {
+	font-family: "Pretendard";
+	src: url("./static/fonts/Pretendard-Light.otf");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: "Pretendard";
+	src: url("./static/fonts/Pretendard-Medium.otf");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: "Pretendard";
+	src: url("./static/fonts/Pretendard-Regular.otf");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Pretendard";
+	src: url("./static/fonts/Pretendard-SemiBold.otf");
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: "Pretendard";
+	src: url("./static/fonts/Pretendard-Thin.otf");
+	font-weight: 100;
 }
