@@ -1,8 +1,8 @@
 import image13 from "./images/image-13.png";
 import image12 from "./images/image-12.png";
 import image15 from "./images/image-15.png";
-import group904 from "./images/group-904.png";
 import instagram from "./images/instagram.svg";
+import ellipse from "./images/ellipse.svg";
 import "./App.css";
 
 function App() {
@@ -11,7 +11,21 @@ function App() {
 			<img src={image13} id="image-13" alt="capsule-1" />
 			<img src={image12} id="image-12" alt="capsule-2" />
 			<img src={image15} id="image-15" alt="capsule-3" />
-			<img src={group904} id="group-904" alt="group-904" />
+			<img src={ellipse} id="ellipse" alt="ellipse" />
+			<div id="content">
+				<div id="description">1년 뒤 나에게 보내는 선물,</div>
+				<div id="title">
+					TIME
+					<br />
+					CAPSULE
+				</div>
+				<div id="date">2024.01.11</div>
+				<div id="coming-soon">
+					COMING
+					<br />
+					SOON
+				</div>
+			</div>
 			<div id="footer">
 				<div id="MadeBy">Made by GDSC Korea Univ.</div>
 				<div id="link">
@@ -20,6 +34,7 @@ function App() {
 						id="insta-link"
 					>
 						<img src={instagram} id="instagram" alt="instagram" />
+						<div style={{ width: "2px" }}></div>
 						GDSC.koreauniv
 					</a>
 					<div style={{ width: "10px" }}></div>
@@ -28,6 +43,7 @@ function App() {
 						id="insta-link"
 					>
 						<img src={instagram} id="instagram" alt="instagram" />
+						<div style={{ width: "2px" }}></div>
 						GDSCKU.project
 					</a>
 				</div>
