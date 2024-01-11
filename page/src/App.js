@@ -19,7 +19,7 @@ function App() {
 					<br />
 					CAPSULE
 				</div>
-				<div id="date">2024.01.11</div>
+				<div id="date">2024.01.17</div>
 				<div id="coming-soon">
 					COMING
 					<br />
