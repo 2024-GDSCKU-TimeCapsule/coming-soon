@@ -263,3 +263,8 @@
 	src: url("./static/fonts/Product-Sans-Regular.ttf");
 	font-weight: 400;
 }
+
+@font-face {
+	font-family: "Noto Sans KR";
+	src: url("./static/fonts/NotoSansKR-Regular.ttf");
+}
