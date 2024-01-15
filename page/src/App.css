@@ -64,7 +64,7 @@
 #ellipse {
 	position: absolute;
 	top: 107px;
-	height: 60%;
+	height: 60vh;
 	flex-shrink: 0;
 }
 #content {
