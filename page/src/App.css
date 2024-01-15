@@ -257,3 +257,9 @@
 	src: url("./static/fonts/Pretendard-Thin.otf");
 	font-weight: 100;
 }
+
+@font-face {
+	font-family: "Product Sans";
+	src: url("./static/fonts/Product-Sans-Regular.ttf");
+	font-weight: 400;
+}
